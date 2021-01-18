@@ -1,6 +1,6 @@
 ---
 - name: Install Httpd Server in all below hosts 
-  hosts: all
+  hosts: Raambabu
   become: true
   tasks: 
   - name: Install httpd server in below hosts
